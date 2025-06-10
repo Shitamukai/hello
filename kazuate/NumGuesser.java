@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class num_guesser {
+public class NumGuesser {
     public static void main(String[] args) {
         // プログラム内で設定された数（2桁の正の整数）
         int targetNumber = (int)(Math.random() * 90) + 10; // 10〜99の乱数
