@@ -20,6 +20,11 @@ public class NumGuesser {
                 int difference = Math.abs(userGuess - targetNumber);
                 if (difference > 20) {
                     System.out.println("設定された数と20以上差があります。");
+                    if (userGuess > targetNumber) {
+                        System.out.println("設定された数より大きいです。");
+                    } else {
+                        System.out.println("設定された数より小さいです。");
+                    }
                 } else if (userGuess > targetNumber) {
                     System.out.println("設定された数より大きいです。");
                 } else {
